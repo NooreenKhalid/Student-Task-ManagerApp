@@ -57,3 +57,46 @@ li {
     text-decoration: line-through;
     color: gray;
 }
+
+/* Mobile Responsive Hotfix - v1.0.1 */
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 12px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin: 15px auto;
+        padding: 20px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    button {
+        min-height: 44px;
+        max-width: 100%;
+        touch-action: manipulation;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    li {
+        overflow-wrap: break-word;
+    }
+}
